@@ -186,6 +186,20 @@ client.call_tool("poisson_probability", {
 })
 ```
 
+### Example MCP Server Config 
+```json
+{
+  "mcpServers": {
+    "analysis-mcp": {
+      "command": "fastmcp-data-analysis-server/.venv/bin/python",
+      "args": [
+        "fastmcp-data-analysis-server/main.py"
+      ],
+    }
+  }
+}
+```
+
 ## Error Handling
 
 All functions include comprehensive error handling for:
