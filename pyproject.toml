@@ -1,5 +1,6 @@
+## Here's my code: 
 [project]
-name = "fastmcp-data-analysis-server"
+name = "iflow-mcp_fastmcp-data-analysis-server"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,3 +11,6 @@ dependencies = [
     "pandas>=2.3.0",
     "scipy>=1.16.0",
 ]
+
+[project.scripts]
+fastmcp-data-analysis-server = "main:main"
