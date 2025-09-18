@@ -1,7 +1,7 @@
-## Here's my code: 
+## Here's my code:
 [project]
 name = "iflow-mcp_fastmcp-data-analysis-server"
-version = "0.1.0"
+version = "0.1.4"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
